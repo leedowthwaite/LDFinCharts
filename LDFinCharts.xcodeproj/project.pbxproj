@@ -132,25 +132,18 @@
 		9B236D061FB98AEF005F41F3 /* CMKBezierPath+Smoothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMKBezierPath+Smoothing.m"; sourceTree = "<group>"; };
 		9B236D071FB98AEF005F41F3 /* JSONValueTransformer+CGSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONValueTransformer+CGSize.h"; sourceTree = "<group>"; };
 		9B236D081FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMKBezierPath+CMKExtensions.h"; sourceTree = "<group>"; };
-		9B236D091FB98AEF005F41F3 /* NSBox+CMKExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBox+CMKExtensions.m"; sourceTree = "<group>"; };
 		9B236D0A1FB98AEF005F41F3 /* UIBezierPath+TextSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TextSupport.m"; sourceTree = "<group>"; };
-		9B236D0B1FB98AEF005F41F3 /* NSBezierPath+TextSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+TextSupport.h"; sourceTree = "<group>"; };
-		9B236D0C1FB98AEF005F41F3 /* CMKBezierPath+BezierPathQuartzUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMKBezierPath+BezierPathQuartzUtilities.m"; sourceTree = "<group>"; };
 		9B236D0D1FB98AEF005F41F3 /* CMKColor+CMKExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMKColor+CMKExtensions.m"; sourceTree = "<group>"; };
 		9B236D0E1FB98AEF005F41F3 /* CALayer+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Extensions.h"; sourceTree = "<group>"; };
 		9B236D0F1FB98AEF005F41F3 /* NSDate+ChartFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ChartFormatting.h"; sourceTree = "<group>"; };
-		9B236D101FB98AEF005F41F3 /* NSBezierPath+MCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+MCAdditions.h"; sourceTree = "<group>"; };
 		9B236D111FB98AEF005F41F3 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
 		9B236D121FB98AEF005F41F3 /* UIBezierPath+TextSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+TextSupport.h"; sourceTree = "<group>"; };
-		9B236D131FB98AEF005F41F3 /* NSBox+CMKExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBox+CMKExtensions.h"; sourceTree = "<group>"; };
 		9B236D141FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMKBezierPath+CMKExtensions.m"; sourceTree = "<group>"; };
 		9B236D151FB98AEF005F41F3 /* JSONValueTransformer+CGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONValueTransformer+CGSize.m"; sourceTree = "<group>"; };
 		9B236D161FB98AEF005F41F3 /* CMKBezierPath+Smoothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMKBezierPath+Smoothing.h"; sourceTree = "<group>"; };
-		9B236D171FB98AEF005F41F3 /* NSBezierPath+TextSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+TextSupport.m"; sourceTree = "<group>"; };
 		9B236D181FB98AEF005F41F3 /* CMKColor+CMKExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMKColor+CMKExtensions.h"; sourceTree = "<group>"; };
 		9B236D191FB98AEF005F41F3 /* CMKBezierPath+BezierPathQuartzUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMKBezierPath+BezierPathQuartzUtilities.h"; sourceTree = "<group>"; };
 		9B236D1A1FB98AEF005F41F3 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
-		9B236D1B1FB98AEF005F41F3 /* NSBezierPath+MCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+MCAdditions.m"; sourceTree = "<group>"; };
 		9B236D1C1FB98AEF005F41F3 /* NSDate+ChartFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ChartFormatting.m"; sourceTree = "<group>"; };
 		9B236D1D1FB98AEF005F41F3 /* CALayer+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Extensions.m"; sourceTree = "<group>"; };
 		9B236D1F1FB98AEF005F41F3 /* timeseries.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timeseries.c; sourceTree = "<group>"; };
@@ -296,25 +289,18 @@
 				9B236D061FB98AEF005F41F3 /* CMKBezierPath+Smoothing.m */,
 				9B236D071FB98AEF005F41F3 /* JSONValueTransformer+CGSize.h */,
 				9B236D081FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.h */,
-				9B236D091FB98AEF005F41F3 /* NSBox+CMKExtensions.m */,
 				9B236D0A1FB98AEF005F41F3 /* UIBezierPath+TextSupport.m */,
-				9B236D0B1FB98AEF005F41F3 /* NSBezierPath+TextSupport.h */,
-				9B236D0C1FB98AEF005F41F3 /* CMKBezierPath+BezierPathQuartzUtilities.m */,
 				9B236D0D1FB98AEF005F41F3 /* CMKColor+CMKExtensions.m */,
 				9B236D0E1FB98AEF005F41F3 /* CALayer+Extensions.h */,
 				9B236D0F1FB98AEF005F41F3 /* NSDate+ChartFormatting.h */,
-				9B236D101FB98AEF005F41F3 /* NSBezierPath+MCAdditions.h */,
 				9B236D111FB98AEF005F41F3 /* NSString+Extensions.h */,
 				9B236D121FB98AEF005F41F3 /* UIBezierPath+TextSupport.h */,
-				9B236D131FB98AEF005F41F3 /* NSBox+CMKExtensions.h */,
 				9B236D141FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.m */,
 				9B236D151FB98AEF005F41F3 /* JSONValueTransformer+CGSize.m */,
 				9B236D161FB98AEF005F41F3 /* CMKBezierPath+Smoothing.h */,
-				9B236D171FB98AEF005F41F3 /* NSBezierPath+TextSupport.m */,
 				9B236D181FB98AEF005F41F3 /* CMKColor+CMKExtensions.h */,
 				9B236D191FB98AEF005F41F3 /* CMKBezierPath+BezierPathQuartzUtilities.h */,
 				9B236D1A1FB98AEF005F41F3 /* NSString+Extensions.m */,
-				9B236D1B1FB98AEF005F41F3 /* NSBezierPath+MCAdditions.m */,
 				9B236D1C1FB98AEF005F41F3 /* NSDate+ChartFormatting.m */,
 				9B236D1D1FB98AEF005F41F3 /* CALayer+Extensions.m */,
 			);
