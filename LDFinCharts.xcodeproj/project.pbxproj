@@ -8,12 +8,176 @@
 
 /* Begin PBXBuildFile section */
 		9B236C1E1FB98902005F41F3 /* LDFinCharts.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236C1C1FB98902005F41F3 /* LDFinCharts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B236D3E1FB98AEF005F41F3 /* ChartYAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CDF1FB98AEF005F41F3 /* ChartYAxis.h */; };
+		9B236D3F1FB98AEF005F41F3 /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CE01FB98AEF005F41F3 /* ChartView.m */; };
+		9B236D401FB98AEF005F41F3 /* ChartDataPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CE11FB98AEF005F41F3 /* ChartDataPoint.m */; };
+		9B236D411FB98AEF005F41F3 /* CMKChartConfigurationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CE21FB98AEF005F41F3 /* CMKChartConfigurationController.m */; };
+		9B236D421FB98AEF005F41F3 /* ChartContiguousPeriodDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CE31FB98AEF005F41F3 /* ChartContiguousPeriodDescriptor.h */; };
+		9B236D431FB98AEF005F41F3 /* Chart.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CE41FB98AEF005F41F3 /* Chart.h */; };
+		9B236D441FB98AEF005F41F3 /* CMKAxisGridlineDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CE51FB98AEF005F41F3 /* CMKAxisGridlineDescriptor.m */; };
+		9B236D451FB98AEF005F41F3 /* ChartSeries.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CE61FB98AEF005F41F3 /* ChartSeries.h */; };
+		9B236D461FB98AEF005F41F3 /* ChartXAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CE71FB98AEF005F41F3 /* ChartXAxis.h */; };
+		9B236D471FB98AEF005F41F3 /* ChartAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CE81FB98AEF005F41F3 /* ChartAxis.m */; };
+		9B236D481FB98AEF005F41F3 /* ChartDataPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CE91FB98AEF005F41F3 /* ChartDataPoint.h */; };
+		9B236D491FB98AEF005F41F3 /* ChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CEA1FB98AEF005F41F3 /* ChartView.h */; };
+		9B236D4A1FB98AEF005F41F3 /* ChartYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CEB1FB98AEF005F41F3 /* ChartYAxis.m */; };
+		9B236D4B1FB98AEF005F41F3 /* CMKTechnicalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CED1FB98AEF005F41F3 /* CMKTechnicalModel.m */; };
+		9B236D4C1FB98AEF005F41F3 /* CMKCustomPathModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CEE1FB98AEF005F41F3 /* CMKCustomPathModel.h */; };
+		9B236D4D1FB98AEF005F41F3 /* CMKColorModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CEF1FB98AEF005F41F3 /* CMKColorModel.h */; };
+		9B236D4E1FB98AEF005F41F3 /* CMKTickMarksModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CF01FB98AEF005F41F3 /* CMKTickMarksModel.h */; };
+		9B236D4F1FB98AEF005F41F3 /* ChartModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CF11FB98AEF005F41F3 /* ChartModel.h */; };
+		9B236D501FB98AEF005F41F3 /* ChartAxisModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CF21FB98AEF005F41F3 /* ChartAxisModel.m */; };
+		9B236D511FB98AEF005F41F3 /* CMKSerializableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CF31FB98AEF005F41F3 /* CMKSerializableModel.m */; };
+		9B236D521FB98AEF005F41F3 /* CMKChartSeriesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CF41FB98AEF005F41F3 /* CMKChartSeriesModel.m */; };
+		9B236D531FB98AEF005F41F3 /* CMKStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CF51FB98AEF005F41F3 /* CMKStyleModel.m */; };
+		9B236D541FB98AEF005F41F3 /* CMKColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CF61FB98AEF005F41F3 /* CMKColorModel.m */; };
+		9B236D551FB98AEF005F41F3 /* CMKCustomPathModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CF71FB98AEF005F41F3 /* CMKCustomPathModel.m */; };
+		9B236D561FB98AEF005F41F3 /* CMKTechnicalModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CF81FB98AEF005F41F3 /* CMKTechnicalModel.h */; };
+		9B236D571FB98AEF005F41F3 /* CMKTickMarksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CF91FB98AEF005F41F3 /* CMKTickMarksModel.m */; };
+		9B236D581FB98AEF005F41F3 /* ChartAxisModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CFA1FB98AEF005F41F3 /* ChartAxisModel.h */; };
+		9B236D591FB98AEF005F41F3 /* ChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236CFB1FB98AEF005F41F3 /* ChartModel.m */; };
+		9B236D5A1FB98AEF005F41F3 /* CMKStyleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CFC1FB98AEF005F41F3 /* CMKStyleModel.h */; };
+		9B236D5B1FB98AEF005F41F3 /* CMKChartSeriesModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CFD1FB98AEF005F41F3 /* CMKChartSeriesModel.h */; };
+		9B236D5C1FB98AEF005F41F3 /* CMKSerializableModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CFE1FB98AEF005F41F3 /* CMKSerializableModel.h */; };
+		9B236D5D1FB98AEF005F41F3 /* CMKChartConfigurationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236CFF1FB98AEF005F41F3 /* CMKChartConfigurationController.h */; };
+		9B236D5E1FB98AEF005F41F3 /* ChartXAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D001FB98AEF005F41F3 /* ChartXAxis.m */; };
+		9B236D5F1FB98AEF005F41F3 /* ChartSeries.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D011FB98AEF005F41F3 /* ChartSeries.m */; };
+		9B236D601FB98AEF005F41F3 /* CMKAxisGridlineDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D021FB98AEF005F41F3 /* CMKAxisGridlineDescriptor.h */; };
+		9B236D611FB98AEF005F41F3 /* ChartContiguousPeriodDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D031FB98AEF005F41F3 /* ChartContiguousPeriodDescriptor.m */; };
+		9B236D621FB98AEF005F41F3 /* ChartAxis.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D041FB98AEF005F41F3 /* ChartAxis.h */; };
+		9B236D631FB98AEF005F41F3 /* CMKBezierPath+Smoothing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D061FB98AEF005F41F3 /* CMKBezierPath+Smoothing.m */; };
+		9B236D641FB98AEF005F41F3 /* JSONValueTransformer+CGSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D071FB98AEF005F41F3 /* JSONValueTransformer+CGSize.h */; };
+		9B236D651FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D081FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.h */; };
+		9B236D671FB98AEF005F41F3 /* UIBezierPath+TextSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D0A1FB98AEF005F41F3 /* UIBezierPath+TextSupport.m */; };
+		9B236D6A1FB98AEF005F41F3 /* CMKColor+CMKExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D0D1FB98AEF005F41F3 /* CMKColor+CMKExtensions.m */; };
+		9B236D6B1FB98AEF005F41F3 /* CALayer+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D0E1FB98AEF005F41F3 /* CALayer+Extensions.h */; };
+		9B236D6C1FB98AEF005F41F3 /* NSDate+ChartFormatting.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D0F1FB98AEF005F41F3 /* NSDate+ChartFormatting.h */; };
+		9B236D6E1FB98AEF005F41F3 /* NSString+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D111FB98AEF005F41F3 /* NSString+Extensions.h */; };
+		9B236D6F1FB98AEF005F41F3 /* UIBezierPath+TextSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D121FB98AEF005F41F3 /* UIBezierPath+TextSupport.h */; };
+		9B236D711FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D141FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.m */; };
+		9B236D721FB98AEF005F41F3 /* JSONValueTransformer+CGSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D151FB98AEF005F41F3 /* JSONValueTransformer+CGSize.m */; };
+		9B236D731FB98AEF005F41F3 /* CMKBezierPath+Smoothing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D161FB98AEF005F41F3 /* CMKBezierPath+Smoothing.h */; };
+		9B236D751FB98AEF005F41F3 /* CMKColor+CMKExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D181FB98AEF005F41F3 /* CMKColor+CMKExtensions.h */; };
+		9B236D771FB98AEF005F41F3 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D1A1FB98AEF005F41F3 /* NSString+Extensions.m */; };
+		9B236D791FB98AEF005F41F3 /* NSDate+ChartFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D1C1FB98AEF005F41F3 /* NSDate+ChartFormatting.m */; };
+		9B236D7A1FB98AEF005F41F3 /* CALayer+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D1D1FB98AEF005F41F3 /* CALayer+Extensions.m */; };
+		9B236D7B1FB98AF0005F41F3 /* timeseries.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D1F1FB98AEF005F41F3 /* timeseries.c */; };
+		9B236D7C1FB98AF0005F41F3 /* timeseries.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D201FB98AEF005F41F3 /* timeseries.h */; };
+		9B236D7D1FB98AF0005F41F3 /* CMKType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D211FB98AEF005F41F3 /* CMKType.h */; };
+		9B236D7E1FB98AF0005F41F3 /* CMKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D221FB98AEF005F41F3 /* CMKMacros.h */; };
+		9B236D7F1FB98AF0005F41F3 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D261FB98AEF005F41F3 /* NSArray+JSONModel.m */; };
+		9B236D801FB98AF0005F41F3 /* NSArray+JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D271FB98AEF005F41F3 /* NSArray+JSONModel.h */; };
+		9B236D811FB98AF0005F41F3 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D291FB98AEF005F41F3 /* JSONValueTransformer.m */; };
+		9B236D821FB98AF0005F41F3 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D2A1FB98AEF005F41F3 /* JSONKeyMapper.h */; };
+		9B236D831FB98AF0005F41F3 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D2B1FB98AEF005F41F3 /* JSONValueTransformer.h */; };
+		9B236D841FB98AF0005F41F3 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D2C1FB98AEF005F41F3 /* JSONKeyMapper.m */; };
+		9B236D851FB98AF0005F41F3 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D2E1FB98AEF005F41F3 /* JSONModel.m */; };
+		9B236D861FB98AF0005F41F3 /* JSONModelArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D2F1FB98AEF005F41F3 /* JSONModelArray.h */; };
+		9B236D871FB98AF0005F41F3 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D301FB98AEF005F41F3 /* JSONModelError.m */; };
+		9B236D881FB98AF0005F41F3 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D311FB98AEF005F41F3 /* JSONModelClassProperty.h */; };
+		9B236D891FB98AF0005F41F3 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D321FB98AEF005F41F3 /* JSONModel.h */; };
+		9B236D8A1FB98AF0005F41F3 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D331FB98AEF005F41F3 /* JSONModelArray.m */; };
+		9B236D8B1FB98AF0005F41F3 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D341FB98AEF005F41F3 /* JSONModelClassProperty.m */; };
+		9B236D8C1FB98AF0005F41F3 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D351FB98AEF005F41F3 /* JSONModelError.h */; };
+		9B236D8D1FB98AF0005F41F3 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D361FB98AEF005F41F3 /* JSONModelLib.h */; };
+		9B236D8E1FB98AF0005F41F3 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D381FB98AEF005F41F3 /* JSONHTTPClient.m */; };
+		9B236D8F1FB98AF0005F41F3 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D391FB98AEF005F41F3 /* JSONAPI.m */; };
+		9B236D901FB98AF0005F41F3 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D3A1FB98AEF005F41F3 /* JSONModel+networking.h */; };
+		9B236D911FB98AF0005F41F3 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D3B1FB98AEF005F41F3 /* JSONHTTPClient.h */; };
+		9B236D921FB98AF0005F41F3 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B236D3C1FB98AEF005F41F3 /* JSONAPI.h */; };
+		9B236D931FB98AF0005F41F3 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B236D3D1FB98AEF005F41F3 /* JSONModel+networking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B236C191FB98902005F41F3 /* LDFinCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LDFinCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B236C1C1FB98902005F41F3 /* LDFinCharts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDFinCharts.h; sourceTree = "<group>"; };
 		9B236C1D1FB98902005F41F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B236CDF1FB98AEF005F41F3 /* ChartYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartYAxis.h; sourceTree = "<group>"; };
+		9B236CE01FB98AEF005F41F3 /* ChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
+		9B236CE11FB98AEF005F41F3 /* ChartDataPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartDataPoint.m; sourceTree = "<group>"; };
+		9B236CE21FB98AEF005F41F3 /* CMKChartConfigurationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKChartConfigurationController.m; sourceTree = "<group>"; };
+		9B236CE31FB98AEF005F41F3 /* ChartContiguousPeriodDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartContiguousPeriodDescriptor.h; sourceTree = "<group>"; };
+		9B236CE41FB98AEF005F41F3 /* Chart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart.h; sourceTree = "<group>"; };
+		9B236CE51FB98AEF005F41F3 /* CMKAxisGridlineDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKAxisGridlineDescriptor.m; sourceTree = "<group>"; };
+		9B236CE61FB98AEF005F41F3 /* ChartSeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartSeries.h; sourceTree = "<group>"; };
+		9B236CE71FB98AEF005F41F3 /* ChartXAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartXAxis.h; sourceTree = "<group>"; };
+		9B236CE81FB98AEF005F41F3 /* ChartAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartAxis.m; sourceTree = "<group>"; };
+		9B236CE91FB98AEF005F41F3 /* ChartDataPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartDataPoint.h; sourceTree = "<group>"; };
+		9B236CEA1FB98AEF005F41F3 /* ChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
+		9B236CEB1FB98AEF005F41F3 /* ChartYAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartYAxis.m; sourceTree = "<group>"; };
+		9B236CED1FB98AEF005F41F3 /* CMKTechnicalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKTechnicalModel.m; sourceTree = "<group>"; };
+		9B236CEE1FB98AEF005F41F3 /* CMKCustomPathModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKCustomPathModel.h; sourceTree = "<group>"; };
+		9B236CEF1FB98AEF005F41F3 /* CMKColorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKColorModel.h; sourceTree = "<group>"; };
+		9B236CF01FB98AEF005F41F3 /* CMKTickMarksModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKTickMarksModel.h; sourceTree = "<group>"; };
+		9B236CF11FB98AEF005F41F3 /* ChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartModel.h; sourceTree = "<group>"; };
+		9B236CF21FB98AEF005F41F3 /* ChartAxisModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartAxisModel.m; sourceTree = "<group>"; };
+		9B236CF31FB98AEF005F41F3 /* CMKSerializableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKSerializableModel.m; sourceTree = "<group>"; };
+		9B236CF41FB98AEF005F41F3 /* CMKChartSeriesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKChartSeriesModel.m; sourceTree = "<group>"; };
+		9B236CF51FB98AEF005F41F3 /* CMKStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKStyleModel.m; sourceTree = "<group>"; };
+		9B236CF61FB98AEF005F41F3 /* CMKColorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKColorModel.m; sourceTree = "<group>"; };
+		9B236CF71FB98AEF005F41F3 /* CMKCustomPathModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKCustomPathModel.m; sourceTree = "<group>"; };
+		9B236CF81FB98AEF005F41F3 /* CMKTechnicalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKTechnicalModel.h; sourceTree = "<group>"; };
+		9B236CF91FB98AEF005F41F3 /* CMKTickMarksModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMKTickMarksModel.m; sourceTree = "<group>"; };
+		9B236CFA1FB98AEF005F41F3 /* ChartAxisModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartAxisModel.h; sourceTree = "<group>"; };
+		9B236CFB1FB98AEF005F41F3 /* ChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartModel.m; sourceTree = "<group>"; };
+		9B236CFC1FB98AEF005F41F3 /* CMKStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKStyleModel.h; sourceTree = "<group>"; };
+		9B236CFD1FB98AEF005F41F3 /* CMKChartSeriesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKChartSeriesModel.h; sourceTree = "<group>"; };
+		9B236CFE1FB98AEF005F41F3 /* CMKSerializableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKSerializableModel.h; sourceTree = "<group>"; };
+		9B236CFF1FB98AEF005F41F3 /* CMKChartConfigurationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKChartConfigurationController.h; sourceTree = "<group>"; };
+		9B236D001FB98AEF005F41F3 /* ChartXAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartXAxis.m; sourceTree = "<group>"; };
+		9B236D011FB98AEF005F41F3 /* ChartSeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartSeries.m; sourceTree = "<group>"; };
+		9B236D021FB98AEF005F41F3 /* CMKAxisGridlineDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKAxisGridlineDescriptor.h; sourceTree = "<group>"; };
+		9B236D031FB98AEF005F41F3 /* ChartContiguousPeriodDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartContiguousPeriodDescriptor.m; sourceTree = "<group>"; };
+		9B236D041FB98AEF005F41F3 /* ChartAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartAxis.h; sourceTree = "<group>"; };
+		9B236D061FB98AEF005F41F3 /* CMKBezierPath+Smoothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMKBezierPath+Smoothing.m"; sourceTree = "<group>"; };
+		9B236D071FB98AEF005F41F3 /* JSONValueTransformer+CGSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONValueTransformer+CGSize.h"; sourceTree = "<group>"; };
+		9B236D081FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMKBezierPath+CMKExtensions.h"; sourceTree = "<group>"; };
+		9B236D091FB98AEF005F41F3 /* NSBox+CMKExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBox+CMKExtensions.m"; sourceTree = "<group>"; };
+		9B236D0A1FB98AEF005F41F3 /* UIBezierPath+TextSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+TextSupport.m"; sourceTree = "<group>"; };
+		9B236D0B1FB98AEF005F41F3 /* NSBezierPath+TextSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+TextSupport.h"; sourceTree = "<group>"; };
+		9B236D0C1FB98AEF005F41F3 /* CMKBezierPath+BezierPathQuartzUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMKBezierPath+BezierPathQuartzUtilities.m"; sourceTree = "<group>"; };
+		9B236D0D1FB98AEF005F41F3 /* CMKColor+CMKExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMKColor+CMKExtensions.m"; sourceTree = "<group>"; };
+		9B236D0E1FB98AEF005F41F3 /* CALayer+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Extensions.h"; sourceTree = "<group>"; };
+		9B236D0F1FB98AEF005F41F3 /* NSDate+ChartFormatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ChartFormatting.h"; sourceTree = "<group>"; };
+		9B236D101FB98AEF005F41F3 /* NSBezierPath+MCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+MCAdditions.h"; sourceTree = "<group>"; };
+		9B236D111FB98AEF005F41F3 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		9B236D121FB98AEF005F41F3 /* UIBezierPath+TextSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+TextSupport.h"; sourceTree = "<group>"; };
+		9B236D131FB98AEF005F41F3 /* NSBox+CMKExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBox+CMKExtensions.h"; sourceTree = "<group>"; };
+		9B236D141FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMKBezierPath+CMKExtensions.m"; sourceTree = "<group>"; };
+		9B236D151FB98AEF005F41F3 /* JSONValueTransformer+CGSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONValueTransformer+CGSize.m"; sourceTree = "<group>"; };
+		9B236D161FB98AEF005F41F3 /* CMKBezierPath+Smoothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMKBezierPath+Smoothing.h"; sourceTree = "<group>"; };
+		9B236D171FB98AEF005F41F3 /* NSBezierPath+TextSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+TextSupport.m"; sourceTree = "<group>"; };
+		9B236D181FB98AEF005F41F3 /* CMKColor+CMKExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMKColor+CMKExtensions.h"; sourceTree = "<group>"; };
+		9B236D191FB98AEF005F41F3 /* CMKBezierPath+BezierPathQuartzUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMKBezierPath+BezierPathQuartzUtilities.h"; sourceTree = "<group>"; };
+		9B236D1A1FB98AEF005F41F3 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
+		9B236D1B1FB98AEF005F41F3 /* NSBezierPath+MCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+MCAdditions.m"; sourceTree = "<group>"; };
+		9B236D1C1FB98AEF005F41F3 /* NSDate+ChartFormatting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ChartFormatting.m"; sourceTree = "<group>"; };
+		9B236D1D1FB98AEF005F41F3 /* CALayer+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Extensions.m"; sourceTree = "<group>"; };
+		9B236D1F1FB98AEF005F41F3 /* timeseries.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = timeseries.c; sourceTree = "<group>"; };
+		9B236D201FB98AEF005F41F3 /* timeseries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeseries.h; sourceTree = "<group>"; };
+		9B236D211FB98AEF005F41F3 /* CMKType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKType.h; sourceTree = "<group>"; };
+		9B236D221FB98AEF005F41F3 /* CMKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMKMacros.h; sourceTree = "<group>"; };
+		9B236D261FB98AEF005F41F3 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		9B236D271FB98AEF005F41F3 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		9B236D291FB98AEF005F41F3 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		9B236D2A1FB98AEF005F41F3 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		9B236D2B1FB98AEF005F41F3 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		9B236D2C1FB98AEF005F41F3 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		9B236D2E1FB98AEF005F41F3 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		9B236D2F1FB98AEF005F41F3 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		9B236D301FB98AEF005F41F3 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		9B236D311FB98AEF005F41F3 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		9B236D321FB98AEF005F41F3 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		9B236D331FB98AEF005F41F3 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		9B236D341FB98AEF005F41F3 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		9B236D351FB98AEF005F41F3 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		9B236D361FB98AEF005F41F3 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		9B236D381FB98AEF005F41F3 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		9B236D391FB98AEF005F41F3 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		9B236D3A1FB98AEF005F41F3 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		9B236D3B1FB98AEF005F41F3 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		9B236D3C1FB98AEF005F41F3 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		9B236D3D1FB98AEF005F41F3 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +210,192 @@
 		9B236C1B1FB98902005F41F3 /* LDFinCharts */ = {
 			isa = PBXGroup;
 			children = (
+				9B236CDC1FB98AEF005F41F3 /* LineChart */,
 				9B236C1C1FB98902005F41F3 /* LDFinCharts.h */,
 				9B236C1D1FB98902005F41F3 /* Info.plist */,
 			);
 			path = LDFinCharts;
+			sourceTree = "<group>";
+		};
+		9B236CDC1FB98AEF005F41F3 /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				9B236CDD1FB98AEF005F41F3 /* Common */,
+			);
+			path = LineChart;
+			sourceTree = "<group>";
+		};
+		9B236CDD1FB98AEF005F41F3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9B236CDE1FB98AEF005F41F3 /* CustomChart */,
+				9B236D051FB98AEF005F41F3 /* CocoaExtension */,
+				9B236D1E1FB98AEF005F41F3 /* StatisticalTools */,
+				9B236D211FB98AEF005F41F3 /* CMKType.h */,
+				9B236D221FB98AEF005F41F3 /* CMKMacros.h */,
+				9B236D231FB98AEF005F41F3 /* third_party */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9B236CDE1FB98AEF005F41F3 /* CustomChart */ = {
+			isa = PBXGroup;
+			children = (
+				9B236CDF1FB98AEF005F41F3 /* ChartYAxis.h */,
+				9B236CE01FB98AEF005F41F3 /* ChartView.m */,
+				9B236CE11FB98AEF005F41F3 /* ChartDataPoint.m */,
+				9B236CE21FB98AEF005F41F3 /* CMKChartConfigurationController.m */,
+				9B236CE31FB98AEF005F41F3 /* ChartContiguousPeriodDescriptor.h */,
+				9B236CE41FB98AEF005F41F3 /* Chart.h */,
+				9B236CE51FB98AEF005F41F3 /* CMKAxisGridlineDescriptor.m */,
+				9B236CE61FB98AEF005F41F3 /* ChartSeries.h */,
+				9B236CE71FB98AEF005F41F3 /* ChartXAxis.h */,
+				9B236CE81FB98AEF005F41F3 /* ChartAxis.m */,
+				9B236CE91FB98AEF005F41F3 /* ChartDataPoint.h */,
+				9B236CEA1FB98AEF005F41F3 /* ChartView.h */,
+				9B236CEB1FB98AEF005F41F3 /* ChartYAxis.m */,
+				9B236CEC1FB98AEF005F41F3 /* Model */,
+				9B236CFF1FB98AEF005F41F3 /* CMKChartConfigurationController.h */,
+				9B236D001FB98AEF005F41F3 /* ChartXAxis.m */,
+				9B236D011FB98AEF005F41F3 /* ChartSeries.m */,
+				9B236D021FB98AEF005F41F3 /* CMKAxisGridlineDescriptor.h */,
+				9B236D031FB98AEF005F41F3 /* ChartContiguousPeriodDescriptor.m */,
+				9B236D041FB98AEF005F41F3 /* ChartAxis.h */,
+			);
+			path = CustomChart;
+			sourceTree = "<group>";
+		};
+		9B236CEC1FB98AEF005F41F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B236CED1FB98AEF005F41F3 /* CMKTechnicalModel.m */,
+				9B236CEE1FB98AEF005F41F3 /* CMKCustomPathModel.h */,
+				9B236CEF1FB98AEF005F41F3 /* CMKColorModel.h */,
+				9B236CF01FB98AEF005F41F3 /* CMKTickMarksModel.h */,
+				9B236CF11FB98AEF005F41F3 /* ChartModel.h */,
+				9B236CF21FB98AEF005F41F3 /* ChartAxisModel.m */,
+				9B236CF31FB98AEF005F41F3 /* CMKSerializableModel.m */,
+				9B236CF41FB98AEF005F41F3 /* CMKChartSeriesModel.m */,
+				9B236CF51FB98AEF005F41F3 /* CMKStyleModel.m */,
+				9B236CF61FB98AEF005F41F3 /* CMKColorModel.m */,
+				9B236CF71FB98AEF005F41F3 /* CMKCustomPathModel.m */,
+				9B236CF81FB98AEF005F41F3 /* CMKTechnicalModel.h */,
+				9B236CF91FB98AEF005F41F3 /* CMKTickMarksModel.m */,
+				9B236CFA1FB98AEF005F41F3 /* ChartAxisModel.h */,
+				9B236CFB1FB98AEF005F41F3 /* ChartModel.m */,
+				9B236CFC1FB98AEF005F41F3 /* CMKStyleModel.h */,
+				9B236CFD1FB98AEF005F41F3 /* CMKChartSeriesModel.h */,
+				9B236CFE1FB98AEF005F41F3 /* CMKSerializableModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B236D051FB98AEF005F41F3 /* CocoaExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9B236D061FB98AEF005F41F3 /* CMKBezierPath+Smoothing.m */,
+				9B236D071FB98AEF005F41F3 /* JSONValueTransformer+CGSize.h */,
+				9B236D081FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.h */,
+				9B236D091FB98AEF005F41F3 /* NSBox+CMKExtensions.m */,
+				9B236D0A1FB98AEF005F41F3 /* UIBezierPath+TextSupport.m */,
+				9B236D0B1FB98AEF005F41F3 /* NSBezierPath+TextSupport.h */,
+				9B236D0C1FB98AEF005F41F3 /* CMKBezierPath+BezierPathQuartzUtilities.m */,
+				9B236D0D1FB98AEF005F41F3 /* CMKColor+CMKExtensions.m */,
+				9B236D0E1FB98AEF005F41F3 /* CALayer+Extensions.h */,
+				9B236D0F1FB98AEF005F41F3 /* NSDate+ChartFormatting.h */,
+				9B236D101FB98AEF005F41F3 /* NSBezierPath+MCAdditions.h */,
+				9B236D111FB98AEF005F41F3 /* NSString+Extensions.h */,
+				9B236D121FB98AEF005F41F3 /* UIBezierPath+TextSupport.h */,
+				9B236D131FB98AEF005F41F3 /* NSBox+CMKExtensions.h */,
+				9B236D141FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.m */,
+				9B236D151FB98AEF005F41F3 /* JSONValueTransformer+CGSize.m */,
+				9B236D161FB98AEF005F41F3 /* CMKBezierPath+Smoothing.h */,
+				9B236D171FB98AEF005F41F3 /* NSBezierPath+TextSupport.m */,
+				9B236D181FB98AEF005F41F3 /* CMKColor+CMKExtensions.h */,
+				9B236D191FB98AEF005F41F3 /* CMKBezierPath+BezierPathQuartzUtilities.h */,
+				9B236D1A1FB98AEF005F41F3 /* NSString+Extensions.m */,
+				9B236D1B1FB98AEF005F41F3 /* NSBezierPath+MCAdditions.m */,
+				9B236D1C1FB98AEF005F41F3 /* NSDate+ChartFormatting.m */,
+				9B236D1D1FB98AEF005F41F3 /* CALayer+Extensions.m */,
+			);
+			path = CocoaExtension;
+			sourceTree = "<group>";
+		};
+		9B236D1E1FB98AEF005F41F3 /* StatisticalTools */ = {
+			isa = PBXGroup;
+			children = (
+				9B236D1F1FB98AEF005F41F3 /* timeseries.c */,
+				9B236D201FB98AEF005F41F3 /* timeseries.h */,
+			);
+			path = StatisticalTools;
+			sourceTree = "<group>";
+		};
+		9B236D231FB98AEF005F41F3 /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				9B236D241FB98AEF005F41F3 /* JSONModel */,
+			);
+			path = third_party;
+			sourceTree = "<group>";
+		};
+		9B236D241FB98AEF005F41F3 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B236D251FB98AEF005F41F3 /* JSONModelCategories */,
+				9B236D281FB98AEF005F41F3 /* JSONModelTransformations */,
+				9B236D2D1FB98AEF005F41F3 /* JSONModel */,
+				9B236D361FB98AEF005F41F3 /* JSONModelLib.h */,
+				9B236D371FB98AEF005F41F3 /* JSONModelNetworking */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		9B236D251FB98AEF005F41F3 /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				9B236D261FB98AEF005F41F3 /* NSArray+JSONModel.m */,
+				9B236D271FB98AEF005F41F3 /* NSArray+JSONModel.h */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		9B236D281FB98AEF005F41F3 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				9B236D291FB98AEF005F41F3 /* JSONValueTransformer.m */,
+				9B236D2A1FB98AEF005F41F3 /* JSONKeyMapper.h */,
+				9B236D2B1FB98AEF005F41F3 /* JSONValueTransformer.h */,
+				9B236D2C1FB98AEF005F41F3 /* JSONKeyMapper.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		9B236D2D1FB98AEF005F41F3 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B236D2E1FB98AEF005F41F3 /* JSONModel.m */,
+				9B236D2F1FB98AEF005F41F3 /* JSONModelArray.h */,
+				9B236D301FB98AEF005F41F3 /* JSONModelError.m */,
+				9B236D311FB98AEF005F41F3 /* JSONModelClassProperty.h */,
+				9B236D321FB98AEF005F41F3 /* JSONModel.h */,
+				9B236D331FB98AEF005F41F3 /* JSONModelArray.m */,
+				9B236D341FB98AEF005F41F3 /* JSONModelClassProperty.m */,
+				9B236D351FB98AEF005F41F3 /* JSONModelError.h */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		9B236D371FB98AEF005F41F3 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9B236D381FB98AEF005F41F3 /* JSONHTTPClient.m */,
+				9B236D391FB98AEF005F41F3 /* JSONAPI.m */,
+				9B236D3A1FB98AEF005F41F3 /* JSONModel+networking.h */,
+				9B236D3B1FB98AEF005F41F3 /* JSONHTTPClient.h */,
+				9B236D3C1FB98AEF005F41F3 /* JSONAPI.h */,
+				9B236D3D1FB98AEF005F41F3 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +405,48 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B236D601FB98AEF005F41F3 /* CMKAxisGridlineDescriptor.h in Headers */,
+				9B236D5D1FB98AEF005F41F3 /* CMKChartConfigurationController.h in Headers */,
+				9B236D561FB98AEF005F41F3 /* CMKTechnicalModel.h in Headers */,
+				9B236D911FB98AF0005F41F3 /* JSONHTTPClient.h in Headers */,
+				9B236D861FB98AF0005F41F3 /* JSONModelArray.h in Headers */,
+				9B236D4D1FB98AEF005F41F3 /* CMKColorModel.h in Headers */,
+				9B236D4F1FB98AEF005F41F3 /* ChartModel.h in Headers */,
+				9B236D8D1FB98AF0005F41F3 /* JSONModelLib.h in Headers */,
+				9B236D5A1FB98AEF005F41F3 /* CMKStyleModel.h in Headers */,
+				9B236D5B1FB98AEF005F41F3 /* CMKChartSeriesModel.h in Headers */,
+				9B236D891FB98AF0005F41F3 /* JSONModel.h in Headers */,
+				9B236D3E1FB98AEF005F41F3 /* ChartYAxis.h in Headers */,
+				9B236D901FB98AF0005F41F3 /* JSONModel+networking.h in Headers */,
+				9B236D881FB98AF0005F41F3 /* JSONModelClassProperty.h in Headers */,
+				9B236D621FB98AEF005F41F3 /* ChartAxis.h in Headers */,
+				9B236D7E1FB98AF0005F41F3 /* CMKMacros.h in Headers */,
+				9B236D581FB98AEF005F41F3 /* ChartAxisModel.h in Headers */,
+				9B236D751FB98AEF005F41F3 /* CMKColor+CMKExtensions.h in Headers */,
+				9B236D4C1FB98AEF005F41F3 /* CMKCustomPathModel.h in Headers */,
+				9B236D6C1FB98AEF005F41F3 /* NSDate+ChartFormatting.h in Headers */,
+				9B236D831FB98AF0005F41F3 /* JSONValueTransformer.h in Headers */,
+				9B236D461FB98AEF005F41F3 /* ChartXAxis.h in Headers */,
+				9B236D821FB98AF0005F41F3 /* JSONKeyMapper.h in Headers */,
+				9B236D451FB98AEF005F41F3 /* ChartSeries.h in Headers */,
+				9B236D481FB98AEF005F41F3 /* ChartDataPoint.h in Headers */,
+				9B236D4E1FB98AEF005F41F3 /* CMKTickMarksModel.h in Headers */,
+				9B236D5C1FB98AEF005F41F3 /* CMKSerializableModel.h in Headers */,
+				9B236D641FB98AEF005F41F3 /* JSONValueTransformer+CGSize.h in Headers */,
+				9B236D421FB98AEF005F41F3 /* ChartContiguousPeriodDescriptor.h in Headers */,
+				9B236D6F1FB98AEF005F41F3 /* UIBezierPath+TextSupport.h in Headers */,
+				9B236D6E1FB98AEF005F41F3 /* NSString+Extensions.h in Headers */,
+				9B236D651FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.h in Headers */,
+				9B236D731FB98AEF005F41F3 /* CMKBezierPath+Smoothing.h in Headers */,
+				9B236D7C1FB98AF0005F41F3 /* timeseries.h in Headers */,
+				9B236D8C1FB98AF0005F41F3 /* JSONModelError.h in Headers */,
 				9B236C1E1FB98902005F41F3 /* LDFinCharts.h in Headers */,
+				9B236D801FB98AF0005F41F3 /* NSArray+JSONModel.h in Headers */,
+				9B236D7D1FB98AF0005F41F3 /* CMKType.h in Headers */,
+				9B236D491FB98AEF005F41F3 /* ChartView.h in Headers */,
+				9B236D6B1FB98AEF005F41F3 /* CALayer+Extensions.h in Headers */,
+				9B236D431FB98AEF005F41F3 /* Chart.h in Headers */,
+				9B236D921FB98AF0005F41F3 /* JSONAPI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +518,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B236D551FB98AEF005F41F3 /* CMKCustomPathModel.m in Sources */,
+				9B236D411FB98AEF005F41F3 /* CMKChartConfigurationController.m in Sources */,
+				9B236D531FB98AEF005F41F3 /* CMKStyleModel.m in Sources */,
+				9B236D7F1FB98AF0005F41F3 /* NSArray+JSONModel.m in Sources */,
+				9B236D3F1FB98AEF005F41F3 /* ChartView.m in Sources */,
+				9B236D671FB98AEF005F41F3 /* UIBezierPath+TextSupport.m in Sources */,
+				9B236D401FB98AEF005F41F3 /* ChartDataPoint.m in Sources */,
+				9B236D8F1FB98AF0005F41F3 /* JSONAPI.m in Sources */,
+				9B236D501FB98AEF005F41F3 /* ChartAxisModel.m in Sources */,
+				9B236D5E1FB98AEF005F41F3 /* ChartXAxis.m in Sources */,
+				9B236D471FB98AEF005F41F3 /* ChartAxis.m in Sources */,
+				9B236D871FB98AF0005F41F3 /* JSONModelError.m in Sources */,
+				9B236D441FB98AEF005F41F3 /* CMKAxisGridlineDescriptor.m in Sources */,
+				9B236D771FB98AEF005F41F3 /* NSString+Extensions.m in Sources */,
+				9B236D851FB98AF0005F41F3 /* JSONModel.m in Sources */,
+				9B236D631FB98AEF005F41F3 /* CMKBezierPath+Smoothing.m in Sources */,
+				9B236D791FB98AEF005F41F3 /* NSDate+ChartFormatting.m in Sources */,
+				9B236D6A1FB98AEF005F41F3 /* CMKColor+CMKExtensions.m in Sources */,
+				9B236D931FB98AF0005F41F3 /* JSONModel+networking.m in Sources */,
+				9B236D811FB98AF0005F41F3 /* JSONValueTransformer.m in Sources */,
+				9B236D511FB98AEF005F41F3 /* CMKSerializableModel.m in Sources */,
+				9B236D8B1FB98AF0005F41F3 /* JSONModelClassProperty.m in Sources */,
+				9B236D611FB98AEF005F41F3 /* ChartContiguousPeriodDescriptor.m in Sources */,
+				9B236D7B1FB98AF0005F41F3 /* timeseries.c in Sources */,
+				9B236D711FB98AEF005F41F3 /* CMKBezierPath+CMKExtensions.m in Sources */,
+				9B236D571FB98AEF005F41F3 /* CMKTickMarksModel.m in Sources */,
+				9B236D521FB98AEF005F41F3 /* CMKChartSeriesModel.m in Sources */,
+				9B236D591FB98AEF005F41F3 /* ChartModel.m in Sources */,
+				9B236D541FB98AEF005F41F3 /* CMKColorModel.m in Sources */,
+				9B236D7A1FB98AEF005F41F3 /* CALayer+Extensions.m in Sources */,
+				9B236D4B1FB98AEF005F41F3 /* CMKTechnicalModel.m in Sources */,
+				9B236D841FB98AF0005F41F3 /* JSONKeyMapper.m in Sources */,
+				9B236D4A1FB98AEF005F41F3 /* ChartYAxis.m in Sources */,
+				9B236D8E1FB98AF0005F41F3 /* JSONHTTPClient.m in Sources */,
+				9B236D5F1FB98AEF005F41F3 /* ChartSeries.m in Sources */,
+				9B236D721FB98AEF005F41F3 /* JSONValueTransformer+CGSize.m in Sources */,
+				9B236D8A1FB98AF0005F41F3 /* JSONModelArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
