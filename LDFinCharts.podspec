@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LDFinCharts"
-  s.version      = "0.9.1"
+  s.version      = "0.9.2"
   s.summary      = "A native iOS charting library for financial charts"
 
   # This description is used to generate tags and improve search results.
