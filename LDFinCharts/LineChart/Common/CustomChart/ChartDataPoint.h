@@ -22,9 +22,16 @@
 @end
 
 @interface ChartNumericDataValue : ChartDataValue
++ (ChartDataValue *)valueWithNumber:(NSNumber *)value;
+- (NSNumber *)valueAsNumber;
+- (CGFloat)valueAsFloat;
 @end
 
 @interface ChartTimeDataValue : ChartDataValue
++ (ChartDataValue *)valueWithDate:(NSDate *)date;
+- (NSDate *)valueAsDate;
++ (ChartDataValue *)valueWithEpochTime:(NSTimeInterval)epochTime;
+- (NSTimeInterval)valueAsEpochTime;
 @end
 
 
